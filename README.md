@@ -12,3 +12,12 @@ android, kotlin, jetpack, ComposeUI
 - ComposeLazyColumn
   - 학습 날짜 : 2022.6.9
   - ComposeUI의 LazyColumn을 사용해 봤습니다.
+- ComposeRow
+  - 학습 날짜 : 2022.6.10
+  - ComposeUI의 Column 기능을 사용해 봤습니다.
+- ComposeBox
+  - 학습 날짜 : 2022.6.10
+  - ComposeUI의 Box 기능을 사용해 봤습니다.
+- ComposeText
+  - 학습 날짜 : 2022.6.10
+  - ComposeUI의 Text 기능을 사용해 봤습니다.
