@@ -21,3 +21,12 @@ android, kotlin, jetpack, ComposeUI
 - ComposeText
   - 학습 날짜 : 2022.6.10
   - ComposeUI의 Text 기능을 사용해 봤습니다.
+- ComposeShape
+  - 학습 날짜 : 2022.6.20
+  - ComposeUI의 Shape 기능을 사용해 봤습니다.
+- ComposeButton
+  - 학습 날짜 : 2022.6.20
+  - ComposeUI의 Button 기능을 사용해 봤습니다.
+- ComposeCheckBox
+  - 학습 날짜 : 2022.6.20
+  - ComposeUI의 CheckBox 기능을 사용해 봤습니다.
