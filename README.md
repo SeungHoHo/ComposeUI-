@@ -28,5 +28,11 @@ android, kotlin, jetpack, ComposeUI
   - 학습 날짜 : 2022.6.20
   - ComposeUI의 Button 기능을 사용해 봤습니다.
 - ComposeCheckBox
-  - 학습 날짜 : 2022.6.20
+  - 학습 날짜 : 2022.6.20 ~ 2022.6.21
   - ComposeUI의 CheckBox 기능을 사용해 봤습니다.
+- ComposeSnackBar
+  - 학습 날짜 : 2022.6.21
+  - ComposeUI의 SnackBar 기능을 사용해 봤습니다.
+- ComposeTextField
+  - 학습 날짜 : 2022.6.21
+  - ComposeUI의 TextField 기능을 사용해 봤습니다.
