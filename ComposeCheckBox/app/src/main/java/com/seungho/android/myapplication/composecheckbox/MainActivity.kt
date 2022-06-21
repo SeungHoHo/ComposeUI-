@@ -4,14 +4,19 @@ import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.*
+import androidx.compose.material.ripple.rememberRipple
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.seungho.android.myapplication.composecheckbox.ui.theme.ComposeCheckBoxTheme
@@ -98,6 +103,9 @@ fun CheckBoxContainer() {
 //            })
         Spacer(modifier = Modifier.height(10.dp))
         AllAgreeCheckBox("모두 동의하십니까?", checkedStatusForFourth, allBoxChecked)
+        Spacer(modifier = Modifier.height(10.dp))
+        MyCustomCheckBox(title = "커스텀 체크박스입니다 리플 O", withRipple = true)
+        MyCustomCheckBox(title = "커스텀 체크박스입니다 리플 X", withRipple = false)
 //        Checkbox(
 //            enabled = true,
 //            checked = checkedStatusForFourth,
@@ -168,6 +176,61 @@ fun AllAgreeCheckBox(title: String,
             })
         Text(text = title)
     }
+}
+
+@Composable
+fun MyCustomCheckBox(title: String, withRipple: Boolean = false) {
+
+//    var isCheckedState by remember { mutableStateOf(false) }
+//    var isChecked = remember { mutableStateOf(false)}
+    var (isChecked, setIsChecked) = remember { mutableStateOf(false)}
+
+    var togglePainter = if (isChecked) R.drawable.ic_checked else R.drawable.ic_unchecked
+
+    var checkedInfoString = if (isChecked) "체크됨" else "체크안됨"
+
+    var rippleEffect = if (withRipple) rememberRipple(
+        radius = 30.dp,
+        bounded = false,
+        color = Color.Blue
+    ) else null
+
+    Row(
+        modifier = Modifier
+            .padding(horizontal = 30.dp)
+            .fillMaxWidth(),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(10.dp)
+    ) {
+        Box(
+            contentAlignment = Alignment.Center,
+            modifier = Modifier
+                .size(60.dp)
+                .clickable(
+                    indication = rippleEffect,
+                    interactionSource = remember { MutableInteractionSource() }
+                ) {
+                    setIsChecked.invoke(!isChecked)
+                    Log.d("TAG", "MyCustomCheckBox: 클릭이 되었다 / $isChecked")
+                }) {
+            Image(
+                painter = painterResource(id = togglePainter),
+                contentDescription = null
+            )
+        }
+        Text(text = "$title / $checkedInfoString")
+    }
+//  rememberRipple 처리
+//        bounded: Boolean = true,
+//        radius: Dp = Dp.Unspecified,
+//        color: Color = Color.Unspecified
+//  Clickable 처리
+//        enabled = enabled,
+//        onClickLabel = onClickLabel,
+//        onClick = onClick,
+//        role = role,
+//        indication = LocalIndication.current,
+//        interactionSource = remember { MutableInteractionSource() }
 }
 
 
