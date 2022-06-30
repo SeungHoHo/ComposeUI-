@@ -36,3 +36,6 @@ android, kotlin, jetpack, ComposeUI
 - ComposeTextField
   - 학습 날짜 : 2022.6.21
   - ComposeUI의 TextField 기능을 사용해 봤습니다.
+- ComposeNavigation
+  - 학습 날짜 : 2022.6.30
+  - ComposeUI의 Navigation 기능을 사용해 봤습니다.
