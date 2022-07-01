@@ -39,3 +39,7 @@ android, kotlin, jetpack, ComposeUI
 - ComposeNavigation
   - 학습 날짜 : 2022.6.30
   - ComposeUI의 Navigation 기능을 사용해 봤습니다.
+
+- CodeLab/BasicsCodelab
+  - 학습 날짜 : 2022.7.1
+  - Jetpack Compose CodeLab을 따라합니다
