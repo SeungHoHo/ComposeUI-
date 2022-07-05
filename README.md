@@ -42,4 +42,10 @@ android, kotlin, jetpack, ComposeUI
 
 - CodeLab/BasicsCodelab
   - 학습 날짜 : 2022.7.1
-  - Jetpack Compose CodeLab을 따라합니다
+  - Jetpack Compose CodeLab을 따라합니다.
+- CodeLab/BasicsLayoutsCodeLab
+  - 학습 날짜 : 2022.7.5
+  - Jetpack Compose의 기본 레이아웃을 배웠습니다.
+- CodeLab/MigrationCodelab
+  - 학습 날짜 : 2022.7.5
+  - 기존의 프로젝트에서 Jetpack Compose으로 이전하는 방법을 배웠습니다.
