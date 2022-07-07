@@ -49,3 +49,9 @@ android, kotlin, jetpack, ComposeUI
 - CodeLab/MigrationCodelab
   - 학습 날짜 : 2022.7.5
   - 기존의 프로젝트에서 Jetpack Compose으로 이전하는 방법을 배웠습니다.
+- CodeLab/ThemingCodelab
+  - 학습 날짜 : 2022.7.7
+  - 기존의 프로젝트에서 Compose의 Material 디자인을 사용하여 테마를 설정하는 방법을 배웠습니다.
+- CodeLab/AnimationCodelab
+  - 학습 날짜 : 2022.7.7
+  - 기존의 프로젝트에서 Compose Animation API 사용 방법을 배웠습니다.
