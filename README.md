@@ -55,3 +55,6 @@ android, kotlin, jetpack, ComposeUI
 - CodeLab/AnimationCodelab
   - 학습 날짜 : 2022.7.7
   - 기존의 프로젝트에서 Compose Animation API 사용 방법을 배웠습니다.
+- CodeLab/AdvancedStateAndSideEffectsCodelab
+  - 학습 날짜 : 2022.7.8
+  - 기존의 프로젝트를 수정하면서 복잡한 Jetpack Compose의 상태 및 부수 효과 API와 관련된 고급 개념을 배웠습니다.
