@@ -58,3 +58,6 @@ android, kotlin, jetpack, ComposeUI
 - CodeLab/AdvancedStateAndSideEffectsCodelab
   - 학습 날짜 : 2022.7.8
   - 기존의 프로젝트를 수정하면서 복잡한 Jetpack Compose의 상태 및 부수 효과 API와 관련된 고급 개념을 배웠습니다.
+- ComposeLottie
+  - 학습 날짜 : 2022.7.21
+  - Jetpack Compose의 Lottie라는 플러그인을 사용하여 애니메이션을 동작시키는 방법을 배웠습니다.
