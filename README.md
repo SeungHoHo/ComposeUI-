@@ -61,3 +61,6 @@ android, kotlin, jetpack, ComposeUI
 - ComposeLottie
   - 학습 날짜 : 2022.7.21
   - Jetpack Compose의 Lottie라는 플러그인을 사용하여 애니메이션을 동작시키는 방법을 배웠습니다.
+- ComposePicker
+  - 학습 날짜 : 2022.7.25
+  - 캘린더 및 타임피커를 선택하고 선택한 날짜와 시간을 텍스트와 연동하는 방법을 배웠습니다.
