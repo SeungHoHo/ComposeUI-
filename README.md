@@ -64,3 +64,6 @@ android, kotlin, jetpack, ComposeUI
 - ComposePicker
   - 학습 날짜 : 2022.7.25
   - 캘린더 및 타임피커를 선택하고 선택한 날짜와 시간을 텍스트와 연동하는 방법을 배웠습니다.
+- ComposePager
+  - 학습 날짜 : 2022.7.25 ~ 7.26
+  - android compose accompanist pager 플러그인을 사용하여 compose에서도 pager 기능을 사용하는 방법을 배웠습니다.
