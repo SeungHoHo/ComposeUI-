@@ -67,3 +67,6 @@ android, kotlin, jetpack, ComposeUI
 - ComposePager
   - 학습 날짜 : 2022.7.25 ~ 7.26
   - android compose accompanist pager 플러그인을 사용하여 compose에서도 pager 기능을 사용하는 방법을 배웠습니다.
+- ComposeKakaoLogin
+  - 학습 날짜 : 2022.8.1
+  - compose에서 kakao api를 활용하여 카카오 로그인을 하는 방법을 배웠습니다.
